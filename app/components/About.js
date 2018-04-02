@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 var Link = require("react-router-dom").Link;
 
 import Header from './Header';
-import Footer from './Footer';
 
 export default class About extends Component {
   render() {
