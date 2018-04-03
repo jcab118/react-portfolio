@@ -1,5 +1,5 @@
 #intro{
-	background-color: #478C8C;
+	background-color: ;
 }
 #about{border: 2px solid black;
     margin-top: 0px;
@@ -23,3 +23,12 @@
     margin-left: 10px;
     background-color: ;
 }
+#footer{
+    background-color: #eae3e3;
+}
+
+#links{
+    height:150px;
+    width:auto;
+}
+

@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 
 import Header from './Header';
 
-
 export default class Home extends React.Component {
   render() {
     return (
@@ -11,6 +10,7 @@ export default class Home extends React.Component {
         <Header/>
         	<h1 className="text-center" id="home-header"></h1>
     		<div className= "text-center" id ="intro">
+             <img id= "code" src = "./images/javascript_code.jpg"></img>
     			<h5>I am Full-Stack Web Developer living in the Capital of the World, 
     			New York City.</h5>
                 <h5>I majored Psychology and minored in Computer Information Systems at 
@@ -47,8 +47,11 @@ export default class Home extends React.Component {
                     <h5>Node.js, React Router, PostgreSQL, Passport, Sequelize</h5>
                 </div>
             	<div className = "text-center" id ="featured_work" >
-                    <h5>Featured Work</h5>
+                    <h5>Featured Work:</h5>
                     <h5>Link-Up</h5>
+                    <a href ="https://github.com/jcab118/Link-Up"  onclick="document.location=this.id+'.html';return false;" >
+                    <img id= "links" src = "./images/links.jpg" target="Link-Up"/>
+                    </a>
                     <h5>Have any of the following happened to you:</h5>
                     <h5>Left hanging after a friend committed to an activity?</h5>
                     <h5>Didn't do an activity you were looking forward to because you didn't 
@@ -58,6 +61,11 @@ export default class Home extends React.Component {
                     <h5>Link-Up is a app which allows everyday people to connect with locals in
                     a desired location to hangout or (Link-Up) </h5>
                 </div>  
+                <div id = "footer">
+                    <footer>
+                        <h6 className = "text-center" id="copyrite-tag">J. Cabrera - Full Stack Web Developer &copy; 2018 J. Cabrera.</h6>
+                    </footer>
+                </div>
             </div>
       </div>
     )
