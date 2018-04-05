@@ -1,34 +1,113 @@
-#intro{
-	background-color: ;
+body{
+background: url("/images/3D_brick_wall.jpg");
 }
-#about{border: 2px solid black;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-right: 800px;
-    margin-left: 10px;
-    background-color: ;
+
+#nyc{
+height: 932px;
+width:auto;
+margin-top: -50px;
+opacity: 1;
+}
+
+#pic_header{
+color:white;
+margin-top: -370px;
+}
+
+#intro{
+border: 2px solid black;
+margin-top:800px;
+margin-bottom: 400px;
+margin-right: 800px;
+margin-left: 10px;
+background-color: ;
+margin:100px;
+color: white;
+}
+
+#about{
+border: 2px solid black;
+margin-top: 800px;
+margin-bottom: 10px;
+margin-right: 800px;
+margin-left: 10px;
+margin:100px;
+background-color: #F0F0F0;
 
 }
-#skills{border: 2px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 800px;
-    margin-left: 10px;
-    background-color: ;
+#skills{
+border: 2px solid black;
+margin-top: 800px;
+margin-bottom: 400px;
+margin-right: 800px;
+margin-left: 10px;
+background-color: ;
+margin:100px;
+background-color: #F0F0F0;
 }
-#featured_work{border: 2px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 800px;
-    margin-left: 10px;
-    background-color: ;
+#featured_work{
+border: 2px solid black;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 800px;
+margin-left: 10px;
+background-color: ;
+margin:100px;
+background-color: #F0F0F0;
+}
+
+#social{
+border: 2px solid black;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 800px;
+margin-left: 10px;
+background-color: ;
+margin:100px;
+background-color: #F0F0F0;
+}
+#services{
+border: 2px solid black;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 800px;
+margin-left: 10px;
+background-color: ;
+margin:100px;
+background-color: #F0F0F0;
+
 }
 #footer{
-    background-color: #eae3e3;
+background-color: #F0F0F0;
 }
 
 #links{
-    height:150px;
-    width:auto;
+height:150px;
+width:auto;
 }
 
+#expertise{
+border: 2px solid black;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 800px;
+margin-left: 10px;
+background-color: ;
+margin:100px;
+background-color: #F0F0F0;
+}
+
+#blurb{
+border: 2px solid black;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 800px;
+margin-left: 10px;
+background-color: ;
+margin:100px;
+background-color: #F0F0F0;
+}
+
+#contact_pg{
+background: url("/images/3D_brick_wall.jpg");
+}
